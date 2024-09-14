@@ -87,5 +87,11 @@ padding-top: 100px;
 
      
     }
-  
+    .fixed{
+      position: fixed;
+    }
+  .white{
+    position: fixed;
+    margin-top: 50px;
+  }
 }
