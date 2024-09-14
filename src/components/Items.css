@@ -1,0 +1,101 @@
+
+   .text2{
+       font-size: 14px;
+   }
+   .button{
+       font-size:15px;
+       width: 80%;
+   }
+   .body h6{
+    font-weight: 600;
+   }
+   .first{
+    padding-top: 180px;
+   }
+   .row{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+   }
+   .image{
+    padding: 30px!important;
+   }
+   /* .row{
+   
+  padding-left: 200px;
+  padding-right: 200px;
+ 
+   }
+   .products{
+    height: 340px!important;
+   }
+   .first{
+    padding-top: 180px;
+   }
+   .col{
+    padding: 20px;
+   }
+   .pro{
+    height: 340px;
+   }
+   .image{
+    padding: 10px;
+   }
+   .products{
+    margin-top:100px
+   } */
+    
+   @media  (max-width: 1200px){
+    .image{
+        padding: 0;
+    }
+    .body{
+        padding: 10px 0;
+    }
+   .text2{
+    font-size: 10px;
+   }
+   .body h6{
+    font-size: 12px;
+    font-weight: 600;
+   }
+.off{
+    font-size: 12px;
+}
+.sec{
+    padding-top: 0;
+}
+.row{
+    padding-left: 100px;
+    padding-right: 100px;
+   }
+   .image{
+    padding: 0px!important;
+   }
+
+}
+@media (min-width: 600px) and (max-width: 959px){
+   
+}
+@media screen and (max-width:600px) {
+    .row{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+       }
+       .image{
+        padding: 0px!important;
+       }
+       .button{
+        font-size: 10px;
+        height: 30px;
+       }
+       .heart{
+        height: 30px;
+       }
+       .heart i{
+       display: flex;
+       align-items: center;
+
+       }
+}

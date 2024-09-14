@@ -1,0 +1,124 @@
+.product{
+    width: 15rem;
+    box-shadow: 10px 3px 10px rgb(221, 211, 211);
+    position: relative;
+    transition: 500ms;
+}
+
+.product:hover{
+ transform:scale(.9);
+}
+.off{
+    color: green;
+    font-weight: 600;
+    font-size: 17px;
+}
+.free{
+    position: absolute;
+    bottom: 33%;
+    height: 25px;
+    width: 110px;
+    font-size: 13px;
+   display: flex;
+   justify-content: center;
+  padding-top: 3px;
+  background-color: #fff;
+  border-radius: 10px;
+
+    color:  #cc0f99;
+    font-weight: 500;
+    box-shadow: 5px 4px 12px rgb(216, 199, 199);
+}
+strike{
+    color: rgb(158, 148, 148);
+}
+.product h6{
+    font-weight: 600;
+    font-size: 18px;
+}
+/* styling owl carousel */
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem!important;
+  color: #1f1b1b!important;
+  z-index: 1;    /* Ensure the arrows are above other content */
+ 
+}
+
+.owl-nav .owl-prev {
+  left: 0px; /* Adjust this value to move the arrow further left */
+}
+
+.owl-nav .owl-next {
+  right: 0px; /* Adjust this value to move the arrow further right */
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+  
+    .product{
+        width: 180px;
+        box-shadow: none;
+        padding: 5px;
+        height: 250px!important;
+    }
+    .free{
+        top:65%;
+    }
+    .text {
+        font-size: 10px;
+    }
+   .text h6{
+    font-size: 14px;
+   }
+   .off{
+    font-size: 14px;
+   }
+   .owl-nav {
+    display: none; /* Hides the navigation buttons */
+  }
+  .owl-theme{
+    height: 150px;
+  }
+  .ban3{
+    margin-top: 100px;
+    height: 150px;
+  }
+  
+}
+@media only screen and (max-width: 600px){
+ .product{
+    width: 150px;
+   height: 240px!important;
+   box-shadow: none;
+ }  
+ .text{
+    font-size: 9px;
+ } 
+ .text h6 ,.off{
+    font-size: 11px;
+ }
+ .owl-nav {
+    display: none; /* Hides the navigation buttons */
+  }
+  .head{
+    font-size: 14px!important;
+  }
+  .owl-dot{
+    background-color: #ddd; /* Default background color */
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .ban3{
+    height: 70px!important;
+  }
+
+}

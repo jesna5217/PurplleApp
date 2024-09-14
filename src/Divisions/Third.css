@@ -1,0 +1,98 @@
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem!important;
+  color: #676262!important;
+  z-index: 1000;    /* Ensure the arrows are above other content */
+  cursor: pointer;  /* Add a pointer cursor on hover */
+}
+
+.owl-nav .owl-prev {
+  left: 0px; /* Adjust this value to move the arrow further left */
+}
+
+.owl-nav .owl-next {
+  right: 0px; /* Adjust this value to move the arrow further right */
+}
+
+.item{
+ width: 250px;
+
+ height: 150px;
+}
+.item img{
+height: 150px;
+width:100%;
+}
+   
+.owl-nav .owl-prev:hover{
+    background-color: none;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem!important;
+  color: #1f1d1d!important;
+  z-index: 1000;    /* Ensure the arrows are above other content */
+  cursor: pointer;  /* Add a pointer cursor on hover */
+}
+.owl-nav .owl-prev {
+    left: -30px; /* Adjust this value to move the arrow further left */
+  }
+  .brands h4{
+    font-size: 29px;
+  
+  }
+  .glow{
+    margin-top: 30px;
+padding-left: 0px!important;
+padding-right: 0px !important;
+  }
+.glow img{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media (min-width: 600px) and (max-width: 900px){
+    .owl nav{
+        display: none;
+    }
+    .item {
+        width: 130px;
+        margin-right: 50px;
+    }
+    .item img{
+        width: 100%;
+    }
+    .brands{
+      margin-top: 100px!important;
+    }
+    .glow img{
+      height: 350px;
+      
+    }
+}
+@media only screen and (max-width: 600px){
+    .item{
+        width: 100px;
+        height: 100px;
+    }
+    .item img{
+        width: 100%!important;
+        height: 103px;
+    }
+    .brands h4{
+      font-size: 19px!important;
+    }
+    
+     
+   
+  .glow img{
+    height: 400px;
+  }
+  
+  }
