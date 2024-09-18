@@ -195,8 +195,12 @@ ul li a{
     
     .coupon{
         height: 35px;
-        width:70px;
+       width: 120px;
         margin-top: 10px;
+    }
+    .coupon p{
+        font-size: 10px;
+        margin-left: 25px;
     }
     .one img{
         margin-right: 8px;

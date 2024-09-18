@@ -27,7 +27,7 @@ const cart=useSelector(state=>state.cartReducer)
     const handleShow = () => setShow(true);
     return (
         <>
-        <header className="header">
+        <div className="header">
             <header className='fixed '>
 
                 <div className="content d-flex justify-content-between ">
@@ -118,7 +118,7 @@ const cart=useSelector(state=>state.cartReducer)
         </div>
     </div>
 </header>
-</header>
+</div>
         </>
     )
 }
