@@ -13,7 +13,7 @@ import Modal from 'react-bootstrap/Modal';
 
 import login from '../assets/login.webp'
 import { useSelector } from 'react-redux';
-import { Badge } from 'react-bootstrap';
+
 
 function Header() {
     //The useSelector hook allows you to extract data from the Redux store in a functional component
@@ -27,7 +27,7 @@ const cart=useSelector(state=>state.cartReducer)
     const handleShow = () => setShow(true);
     return (
         <>
-        <div className="header">
+        <header className="header">
             <header className='fixed '>
 
                 <div className="content d-flex justify-content-between ">
@@ -118,7 +118,7 @@ const cart=useSelector(state=>state.cartReducer)
         </div>
     </div>
 </header>
-</div>
+</header>
         </>
     )
 }
