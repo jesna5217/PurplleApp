@@ -63,6 +63,7 @@ padding-left: 0;
 padding-right:0;
 width: 100%;
 padding-top: 100px;
+overflow-x: hidden;
 }
 .mySwiper img{
     height: 200px;
